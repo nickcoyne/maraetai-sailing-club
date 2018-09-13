@@ -1,10 +1,12 @@
-set :markdown_engine, :redcarpet
+# frozen_string_literal: true
+
+require 'slim'
 
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
 activate :autoprefixer do |prefix|
-  prefix.browsers = "last 2 versions"
+  prefix.browsers = 'last 2 versions'
 end
 
 # Layouts
@@ -39,10 +41,23 @@ page '/*.txt', layout: false
 #   end
 # end
 
+# Reload the browser automatically whenever files change
+configure :development do
+  activate :livereload
+end
+
+# Use relative URLs
+activate :relative_assets
+set :relative_links, true
+
+# Turn this on if you want to make your url's prettier, without the .html
+activate :directory_indexes
+
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-# configure :build do
-#   activate :minify_css
-#   activate :minify_javascript
-# end
+configure :build do
+  activate :minify_css
+  activate :minify_javascript
+  activate :minify_html
+end
