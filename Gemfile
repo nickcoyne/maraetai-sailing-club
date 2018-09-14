@@ -7,6 +7,8 @@ gem 'slim', '>= 3.0'
 
 gem 'middleman', '~> 4.2'
 gem 'middleman-autoprefixer', '~> 2.7'
+# gem 'middleman-deploy', '~> 1.0' # https://github.com/karlfreeman/middleman-deploy
+# gem 'middleman-dotenv', '~> 2.0' # https://github.com/karlfreeman/middleman-dotenv
 gem 'middleman-livereload'
 gem 'middleman-minify-html'
 

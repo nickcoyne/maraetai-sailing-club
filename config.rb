@@ -50,6 +50,9 @@ end
 activate :relative_assets
 set :relative_links, true
 
+activate :asset_hash
+activate :gzip
+
 # Turn this on if you want to make your url's prettier, without the .html
 activate :directory_indexes
 

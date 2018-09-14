@@ -2,7 +2,7 @@ nav.navbar role="navigation" aria-label="main navigation"
   .container
     .navbar-brand
       = link_to '/index.html', class: 'navbar-item' do
-        = image_tag 'logo.png', alt: 'Bakery'
+        = image_tag 'msc-logo-horizontal-sm.png', alt: 'Maraetai Sailing Club'
       a.navbar-burger role="button" aria-label="menu" aria-expanded="false" data-target="navMenu"
         span aria-hidden="true"
         span aria-hidden="true"
@@ -10,7 +10,30 @@ nav.navbar role="navigation" aria-label="main navigation"
     #navMenu.navbar-menu
       .navbar-end
         = link_to 'Home', '/index.html', class: 'navbar-item'
+        .navbar-item.has-dropdown.is-hoverable
+          a.navbar-link Learn To Sail
+          .navbar-dropdown
+            = link_to 'Kids', '/learn-to-sail/kids.html', class: 'navbar-item'
+            = link_to 'Adults', '/learn-to-sail/adults.html', class: 'navbar-item'
+            = link_to 'Holiday Programme', '/learn-to-sail/holiday.html', class: 'navbar-item'
+        .navbar-item.has-dropdown.is-hoverable
+          a.navbar-link Calendar
+          .navbar-dropdown
+            = link_to 'Sailing Calendar', '/sailing-calendar.html', class: 'navbar-item'
+            = link_to 'Roster', '/roster.html', class: 'navbar-item'
+        .navbar-item.has-dropdown.is-hoverable
+          a.navbar-link Sailing
+          .navbar-dropdown
+            = link_to 'Optimist', '/optimist.html', class: 'navbar-item'
+            = link_to 'P Class', '/p-class.html', class: 'navbar-item'
+            = link_to 'Starling', '/starling.html', class: 'navbar-item'
+            = link_to 'Windsurfing', '/windsurfing.html', class: 'navbar-item'
+        = link_to 'Membership', '/membership.html', class: 'navbar-item'
+        .navbar-item.has-dropdown.is-hoverable
+          a.navbar-link Events
+          .navbar-dropdown
+            = link_to 'Results', '/events/results.html', class: 'navbar-item'
+            = link_to 'Auckland Opti/Starling Champs 2019', '/events/auckland-champs-2019.html', class: 'navbar-item'
+        = link_to 'News', '/news.html', class: 'navbar-item'
         = link_to 'About', '/about.html', class: 'navbar-item'
-        = link_to 'Gallery', '/gallery.html', class: 'navbar-item'
-        = link_to 'Recipe of the month', '/recipes.html', class: 'navbar-item'
         = link_to 'Contact', '/contact.html', class: 'navbar-item'
