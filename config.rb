@@ -56,13 +56,8 @@ activate :gzip
 # Turn this on if you want to make your url's prettier, without the .html
 activate :directory_indexes
 
-activate :external_pipeline,
-         name: :webpack,
-         command: build? ?
-           './node_modules/webpack/bin/webpack.js --bail -p' :
-           './node_modules/webpack/bin/webpack.js --watch -d --progress --color',
-         source: 'build',
-         latency: 1
+activate :sprockets
+sprockets.append_path File.join(root, 'node_modules')
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings

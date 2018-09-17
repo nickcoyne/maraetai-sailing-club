@@ -11,6 +11,7 @@ gem 'middleman-autoprefixer', '~> 2.7'
 # gem 'middleman-dotenv', '~> 2.0' # https://github.com/karlfreeman/middleman-dotenv
 gem 'middleman-livereload'
 gem 'middleman-minify-html'
+gem 'middleman-sprockets'
 
 gem 'rubocop'
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
