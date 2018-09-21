@@ -12,6 +12,7 @@ gem 'middleman-autoprefixer', '~> 2.7'
 gem 'middleman-livereload'
 gem 'middleman-minify-html'
 gem 'middleman-sprockets'
+gem 'redcarpet'
 
 gem 'rubocop'
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
