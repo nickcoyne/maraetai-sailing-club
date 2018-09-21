@@ -1,0 +1,60 @@
+@import "bulma/bulma";
+
+@charset "utf-8";
+
+html {
+  background-color: #ffffff;
+}
+
+.center-block {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.light-grey {
+  background: #f6f6f6;
+}
+
+.nav-item img {
+  max-height: 40px;
+}
+
+.owl-carousel {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.owl-carousel img{
+  display: block;
+  height: auto;
+  width: 100%;
+}
+/* about page */
+.aboutpage-tradition {
+  background: url('../images/about-wheat.jpg');
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.aboutpage-tradition h3{
+  background-color: rgb(246, 246, 246);
+  padding: 11px 0;
+}
+
+#map_holder {
+  height: 280px;
+  z-index: -1;
+}
+
+footer a {
+  float: right;
+  margin-right: 10px;
+}
+
+@media all and (min-width: 770px) {
+  #map_holder {
+    height: 380px;
+    z-index: 0;
+  }
+}

@@ -1,20 +1,15 @@
 ---
-title: Welcome to Bakery
+title: Maraetai Sailing Club
 ---
 
-.owl-carousel.owl-theme
-  div
-    = image_tag "slideshow/buttery-croissants.jpg"
-  div
-    = image_tag "slideshow/chocolate-sponge-cakes.jpg"
-  div
-    = image_tag "slideshow/crusty-french-rolls.jpg"
-  div
-    = image_tag "slideshow/ham-and-cheese-panini.jpg"
-  div
-    = image_tag "slideshow/nut-brownies.jpg"
-  div
-    = image_tag "slideshow/shortbread-biscuits.jpg"
+- content_for :hero do
+  .owl-carousel.owl-theme
+    div
+      = image_tag 'homepage/slide-1.jpg'
+    div
+      = image_tag 'homepage/slide-2.jpg'
+    div
+      = image_tag 'homepage/slide-3.jpg'
 
 .section
   .container
@@ -22,74 +17,28 @@ title: Welcome to Bakery
       .column.has-text-centered
         .content
           h2.title Welcome
-          = image_tag 'homepage/bakery-welcome.jpg', alt: 'Bakery Welcome'
-          p We are a family-owned business serving your favorite bakery products in heart of Dublin.
-
-          p We are destination for delicious cakes, donuts, coffee, cookies — and of course our legendary cupcakes.
-          p Everything is made fresh on the premises with only the finest ingredients, like real butter and free-range eggs.
-
-          p
-            strong Our Cupcakes
-
-          p Rich, flaky, buttery &amp; incredibly delicious, our Cupcakes are made with a special 3-step process that's been handed down from generation to generation.
-
-          p
-            strong NO CUTTING CORNERS HERE!
+          = image_tag 'homepage/welcome.jpg', alt: 'Welcome'
+          p The Maraetai Sailing Club is operating out of the Boat Club grounds.  We are a small but active group offering dinghy sailing tuition, windsurfing and paddleboarding for junior and senior members alike.
+          p We are all part of the Maraetai Boat Club and we offer the opportunity for junior and senior sailors to participate in sailing events both here at Maraetai and other clubs around Auckland and we regularly host regattas too.
 
       .column.has-text-centered
         .content
-          h2.title Opening times
-          = image_tag 'homepage/bakery-opening-times.jpg', alt: 'Opening times'
-
-          table.table
-            tbody
-              tr
-                td Monday
-                td 7.00am - 6.30pm
-              tr
-                td Tuesday
-                td 7.00am - 6.30pm
-              tr
-                td Wednesday
-                td 7.00am - 6.30pm
-              tr
-                td Thursday
-                td 7.00am - 6.30pm
-              tr
-                td Friday
-                td 7.00am - 6.30pm
-              tr
-                td Saturday
-                td 8.00am - 4.30pm
-              tr
-                td Sunday
-                td 9.00am - 4.30pm
-
-          p
-            small 9.00am - 4.30pm on Christmas Day &amp; St. Stephen's Day
+          h2.title Learn To Sail
+          = image_tag 'homepage/lts.jpg', alt: 'Learn To Sail'
+          p Junior and adult Learn to Sail programs, with Optimists and Kona windsurfers.
 
       .column
         .content
-          h2.title.has-text-centered Testimonials
-          = image_tag 'homepage/bakery-testimonials.jpg', alt: 'Testimonials', class: 'center-block'
-          p
-            | Thank you so much for such a beautiful wedding cake! It was better than we hoped. We and our guests enjoyed it very much.
-            strong Jenny &amp; George
-          hr.is-marginless
-          p
-            | Wedding was absolutely perfect. People were raving about the bakery we didn't have a single thing left. They even ate the giant cannoli shell!
-            strong Tracy &amp; Mick
-          hr.is-marginless
-          p
-            | I just love your fruit cake! It is so nice to have some healthier alternatives during the Christmas Season.
-            strong Tim Mighton
-          hr.is-marginless
-          p
-            | All of the bakery I've had were very delicious and decorated beautifully!
-            strong Donna Parnell
-          hr.is-marginless
-          p
-            | Best cake I've ever had, hands down... The size of the cakes can feed a small village, wonderful prices!
-            strong Reggie Mitchell
+          h2.title.has-text-centered Events
+          = image_tag 'homepage/events.jpg', alt: 'Events', class: 'center-block'
+          p Club-hosted regattas this season:
+          ul
+            li Auckland P Class Championships 17-18 November 2018
+            li East Auckland Series16 December 2018
+            li Auckland Optimist/Starling Championships 26-28 January 2019
+            li J14/3.7 Nationals 8-9 March 2019
+            li Maraetai Centreboard Regatta 6 April 2019
+
+
 
 
