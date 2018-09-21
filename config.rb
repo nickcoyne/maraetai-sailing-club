@@ -68,3 +68,9 @@ configure :build do
   activate :minify_javascript
   activate :minify_html
 end
+
+activate :contentful do |f|
+  f.space         = { site: ENV['CONTENTFUL_SPACE_ID'] }
+  f.access_token  = ENV['CONTENTFUL_ACCESS_TOKEN']
+  f.content_types = { pages: 'page', menu_items: 'menuItem' }
+end
