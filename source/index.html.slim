@@ -2,13 +2,14 @@
 title: Maraetai Sailing Club
 ---
 
-.owl-carousel.owl-theme
-  div
-    = image_tag 'homepage/slide-1.jpg'
-  div
-    = image_tag 'homepage/slide-2.jpg'
-  div
-    = image_tag 'homepage/slide-3.jpg'
+- content_for :hero do
+  .owl-carousel.owl-theme
+    div
+      = image_tag 'homepage/slide-1.jpg'
+    div
+      = image_tag 'homepage/slide-2.jpg'
+    div
+      = image_tag 'homepage/slide-3.jpg'
 
 .section
   .container

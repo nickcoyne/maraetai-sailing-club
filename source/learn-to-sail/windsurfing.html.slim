@@ -1,18 +1,21 @@
 ---
 title: Learn to Sail - Windsurfing
 ---
-.owl-carousel.owl-theme
-  div
-    = image_tag 'lts/adult.jpg'
-  div
-    = image_tag 'lts/adult-2.jpg'
+- content_for :hero do
+  .owl-carousel.owl-theme
+    div
+      = image_tag 'lts/adult.jpg'
+    div
+      = image_tag 'lts/adult-2.jpg'
 
 .section
   .container
     .columns
-      .column.is-three-quarters
+      .column
         h1.title Windsurfing
 
+    .columns
+      .column.is-three-quarters
         .content
           p Windsurfing tuition runs alongside Junior Sailing on Sundays during the summer months.  For ages 11 and above (including adults). From beginner (learn to sail) through to intermediate.Windsurfers
 
@@ -32,3 +35,5 @@ title: Learn to Sail - Windsurfing
             | .
 
       .column.is-one-quarter
+        .content
+          p More content can go here. Perhaps pricing details, dates, etc

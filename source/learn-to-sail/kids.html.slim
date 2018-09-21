@@ -1,20 +1,22 @@
 ---
 title: Learn to Sail - Kids
 ---
-.owl-carousel.owl-theme
-  div
-    = image_tag 'lts/kids.jpg'
-  div
-    = image_tag 'lts/kids-2.jpg'
-  div
-    == image_tag 'lts/kids-3.jpg'
+- content_for :hero do
+  .owl-carousel.owl-theme
+    div
+      = image_tag 'lts/kids.jpg'
+    div
+      = image_tag 'lts/kids-2.jpg'
+    div
+      == image_tag 'lts/kids-3.jpg'
 
 .section
   .container
     .columns
-      .column.is-three-quarters
+      .column
         h1.title Junior Sailing – Learn to Sail
-
+    .columns
+      .column.is-three-quarters
         .content
           p Maraetai Sailing Club has a Junior Sailing programme over the summer months each year for children from 9 to 18 years with training by qualified Yachting NZ coaches. We teach kids in the following classes – Optis, Starlings & Jolly Boat.
 
@@ -37,3 +39,5 @@ title: Learn to Sail - Kids
             li Tuesday afternoon sailing for level 2’s and above:  boat rigging and launching patrol boats starts at 4.30pm, coaches briefing at 5pm.
 
       .column.is-one-quarter
+        .content
+          p More content can go here. Perhaps pricing details, dates, etc
