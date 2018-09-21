@@ -2,12 +2,12 @@
 :id: 2BPIXVBWlmUC422K4WoAOi
 :_meta:
   :content_type_id: page
-  :updated_at: '2018-09-21T02:48:04+00:00'
+  :updated_at: '2018-09-21T17:26:25+00:00'
   :created_at: '2018-09-21T02:48:04+00:00'
   :id: 2BPIXVBWlmUC422K4WoAOi
 :title: Junior Sailing – Learn to Sail
 :slug: learn-to-sail/kids
-:template: Two Column
+:template: two_column
 :body: |-
   Maraetai Sailing Club has a Junior Sailing programme over the summer months each year for children from 9 to 18 years with training by qualified Yachting NZ coaches. We teach kids in the following classes – Optis, Starlings & Jolly Boat.
 
@@ -29,3 +29,26 @@
 
   - Sunday sailing:  boat rigging and launching patrol boats starts at 8.30am, coaches briefing at 9am.  Afternoon racing begins at 1pm.
   - Tuesday afternoon sailing for level 2’s and above:  boat rigging and launching patrol boats starts at 4.30pm, coaches briefing at 5pm.
+:body2: More content can go here. Perhaps pricing details, dates, etc
+:hero_images:
+- :title: kids
+  :description: 
+  :url: "//images.ctfassets.net/4xilioo7w5uj/1AbXE5rMGUQMUg8YussGm8/ecf9795c0a913ab849ff483bf839085b/kids.jpg"
+  :_meta:
+    :updated_at: '2018-09-21T17:25:05+00:00'
+    :created_at: '2018-09-21T17:25:05+00:00'
+    :id: 1AbXE5rMGUQMUg8YussGm8
+- :title: kids-2
+  :description: 
+  :url: "//images.ctfassets.net/4xilioo7w5uj/3ixzEBVtRK4AA2U2iaCeQQ/3fa5ae54dd2a987f6a17ec8514d1a2d5/kids-2.jpg"
+  :_meta:
+    :updated_at: '2018-09-21T17:25:05+00:00'
+    :created_at: '2018-09-21T17:25:05+00:00'
+    :id: 3ixzEBVtRK4AA2U2iaCeQQ
+- :title: kids-3
+  :description: 
+  :url: "//images.ctfassets.net/4xilioo7w5uj/18SM4HBA9Gu04u2w4WIMs8/1638ebceb22aff299f9579ff491df4da/kids-3.jpg"
+  :_meta:
+    :updated_at: '2018-09-21T17:25:05+00:00'
+    :created_at: '2018-09-21T17:25:05+00:00'
+    :id: 18SM4HBA9Gu04u2w4WIMs8
