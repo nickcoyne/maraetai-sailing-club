@@ -5,7 +5,7 @@ html
     meta charset="utf-8"
     meta content="width=device-width,initial-scale=1.0" name="viewport"
 
-    title = current_page.data.title || 'Maraetai Sailing Club'
+    title = "#{ page.title } | Maraetai Sailing Club"
 
     = favicon_tag 'favicon.ico'
     = stylesheet_link_tag 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/assets/owl.carousel.min.css'
@@ -14,7 +14,6 @@ html
     = stylesheet_link_tag :all
 
   body class="#{page_classes}"
-
     = partial 'layouts/navbar'
 
     main

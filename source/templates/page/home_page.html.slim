@@ -1,19 +1,5 @@
----
-title: Maraetai Sailing Club
----
-
 - content_for :hero do
-  .owl-carousel.owl-theme
-
-    - page.hero_images.each do |hero_image|
-      div
-        = image_tag hero_image.url
-    / div
-    /   = image_tag 'homepage/slide-1.jpg'
-    / div
-    /   = image_tag 'homepage/slide-2.jpg'
-    / div
-    /   = image_tag 'homepage/slide-3.jpg'
+  = partial 'layouts/hero_slideshow', locals: { page: page }
 
 .section
   .container
@@ -23,33 +9,12 @@ title: Maraetai Sailing Club
           = markdown do
             = page.body
 
-          / h2.title Welcome
-          / = image_tag 'homepage/welcome.jpg', alt: 'Welcome'
-          / p The Maraetai Sailing Club is operating out of the Boat Club grounds.  We are a small but active group offering dinghy sailing tuition, windsurfing and paddleboarding for junior and senior members alike.
-          / p We are all part of the Maraetai Boat Club and we offer the opportunity for junior and senior sailors to participate in sailing events both here at Maraetai and other clubs around Auckland and we regularly host regattas too.
-
       .column.has-text-centered
         .content
           = markdown do
             = page.body2
-          / h2.title Learn To Sail
-          / = image_tag 'homepage/lts.jpg', alt: 'Learn To Sail'
-          / p Junior and adult Learn to Sail programs, with Optimists and Kona windsurfers.
 
       .column
         .content
           = markdown do
             = page.body3
-          / h2.title.has-text-centered Events
-          / = image_tag 'homepage/events.jpg', alt: 'Events', class: 'center-block'
-          / p Club-hosted regattas this season:
-          / ul
-          /   li Auckland P Class Championships 17-18 November 2018
-          /   li East Auckland Series16 December 2018
-          /   li Auckland Optimist/Starling Championships 26-28 January 2019
-          /   li J14/3.7 Nationals 8-9 March 2019
-          /   li Maraetai Centreboard Regatta 6 April 2019
-
-
-
-

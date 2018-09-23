@@ -31,7 +31,13 @@ if @app.data.try(:site).try(:pages)
   # Loop through each page
   data.site.pages.each do |_id, page|
     # The path to the page gets set from the slug of the page
-    path = "#{page.slug}/index.html"
+    path = (
+      if page.slug == 'index'
+        'index.html'
+      else
+        "#{page.slug}/index.html"
+      end
+    )
     # Use the appropriate template
     template = "templates/page/#{page.template.parameterize}.html"
     # Add the proxy
