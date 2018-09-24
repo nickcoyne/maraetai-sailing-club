@@ -1,0 +1,67 @@
+---
+:id: 1MzhiSZKrqA20UwgCgeG4w
+:_meta:
+  :content_type_id: menuItem
+  :updated_at: '2018-09-23T23:29:55+00:00'
+  :created_at: '2018-09-21T17:36:34+00:00'
+  :id: 1MzhiSZKrqA20UwgCgeG4w
+:text: Home
+:page_link:
+  :id: 6QEsWY8e52GGEMqCa8Ya60
+  :_meta:
+    :content_type_id: page
+    :updated_at: '2018-09-21T17:50:24+00:00'
+    :created_at: '2018-09-21T17:36:04+00:00'
+    :id: 6QEsWY8e52GGEMqCa8Ya60
+  :title: Home
+  :slug: index
+  :template: home_page
+  :body: |-
+    ## Welcome
+
+    ![welcome](//images.ctfassets.net/4xilioo7w5uj/4v3BTEBvtCYKyoK0yYwuCW/4ea9827e37eba4ed49ecec91cb3f3b28/welcome.jpg)
+
+    The Maraetai Sailing Club is operating out of the Boat Club grounds.  We are a small but active group offering dinghy sailing tuition, windsurfing and paddleboarding for junior and senior members alike.
+
+    We are all part of the Maraetai Boat Club and we offer the opportunity for junior and senior sailors to participate in sailing events both here at Maraetai and other clubs around Auckland and we regularly host regattas too.
+  :body2: |-
+    ## Learn To Sail
+
+    ![lts](//images.ctfassets.net/4xilioo7w5uj/7gDbn8ZcWsASUmY46qM44S/0798fce151a31d74626c827b18e92384/lts.jpg)
+
+    Junior and adult Learn to Sail programs, with Optimists and Kona windsurfers.
+  :body3: |-
+    ## Events
+
+    ![events](//images.ctfassets.net/4xilioo7w5uj/62YK15x5KMwU0YE8SGYASQ/53c4954eec31d2658564fcc51afd4900/events.jpg)
+
+    Club-hosted regattas this season:
+
+    * Auckland P Class Championships 17-18 November 2018
+    * East Auckland Series16 December 2018
+    * Auckland Optimist/Starling Championships 26-28 January 2019
+    * J14/3.7 Nationals 8-9 March 2019
+    * Maraetai Centreboard Regatta 6 April 2019
+  :hero_images:
+  - :title: slide-1
+    :description: 
+    :url: "//images.ctfassets.net/4xilioo7w5uj/7KDvLi816EYCIq0cQUqIou/1c329ccd6ebf034fcc9244d48a3c87c8/slide-1.jpg"
+    :_meta:
+      :updated_at: '2018-09-21T17:32:50+00:00'
+      :created_at: '2018-09-21T17:32:50+00:00'
+      :id: 7KDvLi816EYCIq0cQUqIou
+  - :title: slide-2
+    :description: 
+    :url: "//images.ctfassets.net/4xilioo7w5uj/1vAHQZ7jeY4SMy4kaIIk6e/277ae65250029d3d19d17cbb35d07d4f/slide-2.jpg"
+    :_meta:
+      :updated_at: '2018-09-21T17:33:17+00:00'
+      :created_at: '2018-09-21T17:33:17+00:00'
+      :id: 1vAHQZ7jeY4SMy4kaIIk6e
+  - :title: slide-3
+    :description: 
+    :url: "//images.ctfassets.net/4xilioo7w5uj/2BQiobTx4I2u2W2ySaOQmu/9af3488d506e8e13691965222425d64f/slide-3.jpg"
+    :_meta:
+      :updated_at: '2018-09-21T17:33:42+00:00'
+      :created_at: '2018-09-21T17:33:42+00:00'
+      :id: 2BQiobTx4I2u2W2ySaOQmu
+:order: 1

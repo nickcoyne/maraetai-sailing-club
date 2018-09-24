@@ -1,0 +1,20 @@
+- content_for :hero do
+  = partial 'layouts/hero_slideshow', locals: { page: page }
+
+.section
+  .container
+    .columns
+      .column.has-text-centered
+        .content
+          = markdown do
+            = page.body
+
+      .column.has-text-centered
+        .content
+          = markdown do
+            = page.body2
+
+      .column
+        .content
+          = markdown do
+            = page.body3

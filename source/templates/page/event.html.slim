@@ -1,0 +1,30 @@
+.section
+  .container
+    .columns
+      .column
+        h1.title
+          = event.title
+    .columns
+      .column.is-three-quarters
+        .content
+          = markdown do
+            = event.details
+
+      .column.is-one-quarter
+        .content
+          p
+            - if event.start_date.to_date == event.end_date.to_date
+              strong
+                ' Date:
+              = event.start_date.strftime('%e %b %Y')
+              br
+              = "#{event.start_date.to_time.strftime('%H:%M')} - #{event.end_date.to_time.strftime('%H:%M')}"
+            - else
+              strong
+                ' Date:
+              = "#{event.start_date.strftime('%e %b %Y %H:%M')} - #{event.end_date.strftime('%e %b %Y %H:%M')}"
+          - if event.documents.present?
+            h4 Documents
+            ul
+              - event.documents.each do |document|
+                li = link_to document.title, document.url

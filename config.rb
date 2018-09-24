@@ -2,6 +2,10 @@
 
 require 'dotenv/load'
 require 'slim'
+require 'redcarpet'
+set :markdown_engine, :redcarpet
+set :redcarpet, autolink: true, no_intra_emphasis: true,
+                fenced_code_blocks: true, strikethrough: true
 
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
@@ -17,6 +21,46 @@ end
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
+
+# Ignore all templates. (This saves us from ignoring within the loop and
+# protects us against an error if one of the data types doesn't exist.)
+ignore 'templates/*.html'
+
+# Checks to ensure pages data exists before trying to access it
+if @app.data&.site&.pages
+  # Loop through each page
+  data.site.pages.each do |_id, page|
+    # The path to the page gets set from the slug of the page
+    path = (
+      if page.slug == 'index'
+        'index.html'
+      else
+        "#{page.slug}/index.html"
+      end
+    )
+    # Use the appropriate template
+    template = "templates/page/#{page.template.parameterize}.html"
+    # Add the proxy
+    proxy path, template, locals: { page: page }
+  end
+end
+
+if @app.data&.site&.events
+  data.site.events.each do |_id, event|
+    path = "events/#{event.slug}/index.html"
+    template = 'templates/page/event.html'
+    proxy path, template, locals: { event: event }
+  end
+end
+
+# if @app.data.try(:site).try(:posts)
+#   data.site.posts.each do |_id, post|
+#     date = post.published_at
+#     path = "blog/#{date.year}-#{'%02i' % date.month}-#{'%02i' % date.day}-#{post.slug}/index.html"
+#     template = "templates/post.html"
+#     proxy path, template, locals: { post: post }
+#   end
+# end
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
@@ -67,4 +111,14 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :minify_html
+end
+
+activate :contentful do |f|
+  f.space         = { site: ENV['CONTENTFUL_SPACE_ID'] }
+  f.access_token  = ENV['CONTENTFUL_ACCESS_TOKEN']
+  f.content_types = {
+    pages: 'page',
+    menu_items: 'menuItem',
+    events: 'event'
+  }
 end

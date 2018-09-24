@@ -1,0 +1,19 @@
+- content_for :hero do
+  = partial 'layouts/hero_slideshow', locals: { page: page }
+
+.section
+  .container
+    .columns
+      .column
+        h1.title
+          = page.title
+    .columns
+      .column.is-three-quarters
+        .content
+          = markdown do
+            = page.body
+
+      .column.is-one-quarter
+        .content
+          = markdown do
+            = page.body2

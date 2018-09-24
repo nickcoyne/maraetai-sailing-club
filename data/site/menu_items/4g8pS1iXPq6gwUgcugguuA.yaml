@@ -1,0 +1,26 @@
+---
+:id: 4g8pS1iXPq6gwUgcugguuA
+:_meta:
+  :content_type_id: menuItem
+  :updated_at: '2018-09-24T02:58:21+00:00'
+  :created_at: '2018-09-23T23:37:29+00:00'
+  :id: 4g8pS1iXPq6gwUgcugguuA
+:text: Contact
+:page_link:
+  :id: 1NIs0Sjj4oaaK0eOgaQAgO
+  :_meta:
+    :content_type_id: page
+    :updated_at: '2018-09-24T02:53:13+00:00'
+    :created_at: '2018-09-24T02:53:13+00:00'
+    :id: 1NIs0Sjj4oaaK0eOgaQAgO
+  :title: Contact Us
+  :slug: contact-us
+  :template: contact
+  :body: |-
+    ## Maraetai Sailing Club
+
+    *Physical:* 188 Maraetai Dr, Maraetai Beach, Auckland
+    *Postal:* PO Box 281006, Maraetai Beach, Manukau 2148
+    *Phone:* 09 536 6649 ext 2
+    *Email* [admin@maraetaiboatingclub.org.nz](mailto:admin@maraetaiboatingclub.org.nz)
+:order: 10
