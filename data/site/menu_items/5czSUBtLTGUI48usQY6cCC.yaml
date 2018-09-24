@@ -1,0 +1,28 @@
+---
+:id: 5czSUBtLTGUI48usQY6cCC
+:_meta:
+  :content_type_id: menuItem
+  :updated_at: '2018-09-23T23:31:56+00:00'
+  :created_at: '2018-09-23T19:33:32+00:00'
+  :id: 5czSUBtLTGUI48usQY6cCC
+:text: Roster
+:page_link:
+  :id: 6uJN8iDhIWoWsaMaEsQWam
+  :_meta:
+    :content_type_id: page
+    :updated_at: '2018-09-23T19:32:11+00:00'
+    :created_at: '2018-09-23T19:32:11+00:00'
+    :id: 6uJN8iDhIWoWsaMaEsQWam
+  :title: Roster
+  :slug: calendar/roster
+  :template: calendar_roster
+:parent_menu_item:
+  :id: 7AxAv0VfvGc0wa24WcQEaS
+  :_meta:
+    :content_type_id: menuItem
+    :updated_at: '2018-09-23T23:31:27+00:00'
+    :created_at: '2018-09-23T19:25:20+00:00'
+    :id: 7AxAv0VfvGc0wa24WcQEaS
+  :text: Calendar
+  :order: 3
+:order: 2

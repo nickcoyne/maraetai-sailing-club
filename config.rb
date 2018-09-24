@@ -27,7 +27,7 @@ page '/*.txt', layout: false
 ignore 'templates/*.html'
 
 # Checks to ensure pages data exists before trying to access it
-if @app.data.try(:site).try(:pages)
+if @app.data&.site&.pages
   # Loop through each page
   data.site.pages.each do |_id, page|
     # The path to the page gets set from the slug of the page
@@ -42,6 +42,14 @@ if @app.data.try(:site).try(:pages)
     template = "templates/page/#{page.template.parameterize}.html"
     # Add the proxy
     proxy path, template, locals: { page: page }
+  end
+end
+
+if @app.data&.site&.events
+  data.site.events.each do |_id, event|
+    path = "events/#{event.slug}/index.html"
+    template = 'templates/page/event.html'
+    proxy path, template, locals: { event: event }
   end
 end
 
@@ -108,5 +116,9 @@ end
 activate :contentful do |f|
   f.space         = { site: ENV['CONTENTFUL_SPACE_ID'] }
   f.access_token  = ENV['CONTENTFUL_ACCESS_TOKEN']
-  f.content_types = { pages: 'page', menu_items: 'menuItem' }
+  f.content_types = {
+    pages: 'page',
+    menu_items: 'menuItem',
+    events: 'event'
+  }
 end

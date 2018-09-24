@@ -16,8 +16,11 @@ html {
   background: #f6f6f6;
 }
 
-.nav-item img {
-  max-height: 40px;
+.navbar-dropdown--events {
+  min-width: 300px;
+}
+.navbar-item .navbar-item--event {
+  white-space: normal;
 }
 
 .owl-carousel {

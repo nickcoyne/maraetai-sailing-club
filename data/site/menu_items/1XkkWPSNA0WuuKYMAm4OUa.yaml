@@ -1,0 +1,29 @@
+---
+:id: 1XkkWPSNA0WuuKYMAm4OUa
+:_meta:
+  :content_type_id: menuItem
+  :updated_at: '2018-09-23T23:35:06+00:00'
+  :created_at: '2018-09-23T23:35:06+00:00'
+  :id: 1XkkWPSNA0WuuKYMAm4OUa
+:text: Starling
+:page_link:
+  :id: 6XZxZmw6ZOEyU8caEMyGs0
+  :_meta:
+    :content_type_id: page
+    :updated_at: '2018-09-23T22:33:59+00:00'
+    :created_at: '2018-09-23T22:33:59+00:00'
+    :id: 6XZxZmw6ZOEyU8caEMyGs0
+  :title: Starling
+  :slug: classes/starling
+  :template: one_column
+  :body: Something about Starlings here
+:parent_menu_item:
+  :id: 5wWitAkSqIIImeu4Iagc0M
+  :_meta:
+    :content_type_id: menuItem
+    :updated_at: '2018-09-23T23:32:33+00:00'
+    :created_at: '2018-09-23T23:32:33+00:00'
+    :id: 5wWitAkSqIIImeu4Iagc0M
+  :text: Sailing
+  :order: 4
+:order: 3

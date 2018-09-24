@@ -1,0 +1,29 @@
+---
+:id: 4qS0QqNYAMCs0U6sUuWmcU
+:_meta:
+  :content_type_id: menuItem
+  :updated_at: '2018-09-23T23:35:33+00:00'
+  :created_at: '2018-09-23T23:35:33+00:00'
+  :id: 4qS0QqNYAMCs0U6sUuWmcU
+:text: Windsurfing
+:page_link:
+  :id: 1tqHiqWTsc0yyKumY8y8sm
+  :_meta:
+    :content_type_id: page
+    :updated_at: '2018-09-23T22:34:32+00:00'
+    :created_at: '2018-09-23T22:34:32+00:00'
+    :id: 1tqHiqWTsc0yyKumY8y8sm
+  :title: Windsurfing
+  :slug: classes/windsurfing
+  :template: one_column
+  :body: Something about Kona and other windsurfing at club
+:parent_menu_item:
+  :id: 5wWitAkSqIIImeu4Iagc0M
+  :_meta:
+    :content_type_id: menuItem
+    :updated_at: '2018-09-23T23:32:33+00:00'
+    :created_at: '2018-09-23T23:32:33+00:00'
+    :id: 5wWitAkSqIIImeu4Iagc0M
+  :text: Sailing
+  :order: 4
+:order: 4

@@ -10,8 +10,10 @@
     .columns
       .column.is-three-quarters
         .content
-          = page.body
+          = markdown do
+            = page.body
 
       .column.is-one-quarter
         .content
-          = page.body2
+          = markdown do
+            = page.body2

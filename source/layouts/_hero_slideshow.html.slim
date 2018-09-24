@@ -1,4 +1,5 @@
-.owl-carousel.owl-theme
-  - page.hero_images.each do |hero_image|
-    div
-      = image_tag hero_image.url
+ - if page.hero_images.present?
+  .owl-carousel.owl-theme
+    - page.hero_images.each do |hero_image|
+      div
+        = image_tag hero_image.url

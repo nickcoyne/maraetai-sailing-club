@@ -1,0 +1,15 @@
+---
+index_options: contact-page
+---
+.container.is-fluid
+  br
+  h1.title.has-text-centered = page.title
+  #map_holder
+
+.section
+  .container
+    .columns
+      .column.is-half.is-offset-one-quarter
+        address.has-text-centered
+          = markdown do
+            = page.body

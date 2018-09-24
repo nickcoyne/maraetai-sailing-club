@@ -1,0 +1,29 @@
+---
+:id: 6PxeuFkKjeo6qOAWowKUyO
+:_meta:
+  :content_type_id: menuItem
+  :updated_at: '2018-09-23T23:33:17+00:00'
+  :created_at: '2018-09-23T23:33:17+00:00'
+  :id: 6PxeuFkKjeo6qOAWowKUyO
+:text: Optimist
+:page_link:
+  :id: 61dvBom1McMg4qiQgGWEGC
+  :_meta:
+    :content_type_id: page
+    :updated_at: '2018-09-23T22:32:47+00:00'
+    :created_at: '2018-09-23T22:32:47+00:00'
+    :id: 61dvBom1McMg4qiQgGWEGC
+  :title: Optimist
+  :slug: classes/optimist
+  :template: one_column
+  :body: Something about optimists here
+:parent_menu_item:
+  :id: 5wWitAkSqIIImeu4Iagc0M
+  :_meta:
+    :content_type_id: menuItem
+    :updated_at: '2018-09-23T23:32:33+00:00'
+    :created_at: '2018-09-23T23:32:33+00:00'
+    :id: 5wWitAkSqIIImeu4Iagc0M
+  :text: Sailing
+  :order: 4
+:order: 1

@@ -2,7 +2,7 @@
 :id: 3k2G54YAnKo2s0sw8E4OkQ
 :_meta:
   :content_type_id: menuItem
-  :updated_at: '2018-09-21T17:40:05+00:00'
+  :updated_at: '2018-09-23T23:30:57+00:00'
   :created_at: '2018-09-21T17:40:05+00:00'
   :id: 3k2G54YAnKo2s0sw8E4OkQ
 :text: Windsurfing
@@ -41,7 +41,9 @@
   :id: 4CvgVYYobKSuaAGik0uEWI
   :_meta:
     :content_type_id: menuItem
-    :updated_at: '2018-09-21T17:37:55+00:00'
+    :updated_at: '2018-09-23T23:30:11+00:00'
     :created_at: '2018-09-21T17:37:55+00:00'
     :id: 4CvgVYYobKSuaAGik0uEWI
   :text: Learn To Sail
+  :order: 2
+:order: 3

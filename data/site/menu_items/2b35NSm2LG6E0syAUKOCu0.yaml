@@ -1,0 +1,29 @@
+---
+:id: 2b35NSm2LG6E0syAUKOCu0
+:_meta:
+  :content_type_id: menuItem
+  :updated_at: '2018-09-23T23:34:27+00:00'
+  :created_at: '2018-09-23T23:34:27+00:00'
+  :id: 2b35NSm2LG6E0syAUKOCu0
+:text: P Class
+:page_link:
+  :id: 6beqrwdO6WuIqOmqsKWSWg
+  :_meta:
+    :content_type_id: page
+    :updated_at: '2018-09-23T22:33:33+00:00'
+    :created_at: '2018-09-23T22:33:27+00:00'
+    :id: 6beqrwdO6WuIqOmqsKWSWg
+  :title: P Class
+  :slug: classes/p-class
+  :template: one_column
+  :body: Something about P Class here
+:parent_menu_item:
+  :id: 5wWitAkSqIIImeu4Iagc0M
+  :_meta:
+    :content_type_id: menuItem
+    :updated_at: '2018-09-23T23:32:33+00:00'
+    :created_at: '2018-09-23T23:32:33+00:00'
+    :id: 5wWitAkSqIIImeu4Iagc0M
+  :text: Sailing
+  :order: 4
+:order: 2

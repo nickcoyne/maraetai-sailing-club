@@ -1,7 +1,15 @@
+ruby:
+  parent_menu_items =
+    @app.data.site.menu_items.select { |_id, i| i.parent_menu_item.nil? }
+                             .sort { |x, y| x[1].order <=> y[1].order }
+  current_events =
+    @app.data.site.events.select { |_id, e| e.start_date >= Date.today }
+                         .sort { |x, y| x[1].start_date <=> y[1].start_date }
+
 nav.navbar role="navigation" aria-label="main navigation"
   .container
     .navbar-brand
-      = link_to '/index.html', class: 'navbar-item' do
+      = link_to '/', class: 'navbar-item' do
         = image_tag 'msc-logo-horizontal-sm.png', alt: 'Maraetai Sailing Club'
       a.navbar-burger role="button" aria-label="menu" aria-expanded="false" data-target="navMenu"
         span aria-hidden="true"
@@ -9,32 +17,20 @@ nav.navbar role="navigation" aria-label="main navigation"
         span aria-hidden="true"
     #navMenu.navbar-menu
       .navbar-end
-        = link_to 'Home', '/index.html', class: 'navbar-item'
-        .navbar-item.has-dropdown.is-hoverable
-          a.navbar-link Learn To Sail
-          .navbar-dropdown
-            = link_to 'Kids', '/learn-to-sail/kids', class: 'navbar-item'
-            = link_to 'Adults', '/learn-to-sail/adults', class: 'navbar-item'
-            = link_to 'Windsurfing', '/learn-to-sail/windsurfing', class: 'navbar-item'
-            / = link_to 'Holiday Programme', '/learn-to-sail/holiday.html', class: 'navbar-item'
-        .navbar-item.has-dropdown.is-hoverable
-          a.navbar-link Calendar
-          .navbar-dropdown
-            = link_to 'Sailing Calendar', '/calendar/sailing.html', class: 'navbar-item'
-            = link_to 'Roster', '/calendar/roster.html', class: 'navbar-item'
-        .navbar-item.has-dropdown.is-hoverable
-          a.navbar-link Sailing
-          .navbar-dropdown
-            = link_to 'Optimist', '/classes/optimist.html', class: 'navbar-item'
-            = link_to 'P Class', '/classes/p-class.html', class: 'navbar-item'
-            = link_to 'Starling', '/classes/starling.html', class: 'navbar-item'
-            = link_to 'Windsurfing', '/classes/windsurfing.html', class: 'navbar-item'
-        = link_to 'Membership', '/membership.html', class: 'navbar-item'
-        .navbar-item.has-dropdown.is-hoverable
-          a.navbar-link Events
-          .navbar-dropdown
-            = link_to 'Results', '/events/results.html', class: 'navbar-item'
-            = link_to 'Auckland Opti/Starling Champs 2019', '/events/auckland-champs-2019.html', class: 'navbar-item'
-        = link_to 'News', '/news.html', class: 'navbar-item'
-        = link_to 'About', '/about.html', class: 'navbar-item'
-        = link_to 'Contact', '/contact.html', class: 'navbar-item'
+        - parent_menu_items.each do |_id, item|
+          - if item.page_link.present?
+            - if item.page_link.slug == 'index'
+              = link_to item.text, "/", class: 'navbar-item'
+            - else
+              = link_to item.text, "/#{item.page_link.slug}", class: 'navbar-item'
+          - else
+            .navbar-item.has-dropdown.is-hoverable
+              a.navbar-link = item.text
+              .navbar-dropdown class="#{'navbar-dropdown--events' if item.text == 'Events'}"
+                - child_menu_items = @app.data.site.menu_items.select { |_id, i| i.parent_menu_item&.id == item&.id }
+                - child_menu_items.each do |_i, child|
+                  = link_to child.text, "/#{child.page_link.slug}", class: 'navbar-item'
+
+                - if item.text == 'Events'
+                  - current_events.each do |_id, event|
+                    = link_to event.title, "/events/#{event.slug}", class: 'navbar-item navbar-item--event'
