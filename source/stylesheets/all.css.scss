@@ -37,6 +37,10 @@ html {
   height: auto;
   width: 100%;
 }
+/* home page */
+.index .content.has-text-centered ul {
+  text-align: left;
+}
 /* about page */
 .aboutpage-tradition {
   background: url('../images/about-wheat.jpg');
