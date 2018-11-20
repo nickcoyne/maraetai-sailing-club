@@ -2,10 +2,14 @@
 :id: 1tqHiqWTsc0yyKumY8y8sm
 :_meta:
   :content_type_id: page
-  :updated_at: '2018-09-23T22:34:32+00:00'
+  :updated_at: '2018-09-24T17:34:53+00:00'
   :created_at: '2018-09-23T22:34:32+00:00'
   :id: 1tqHiqWTsc0yyKumY8y8sm
 :title: Windsurfing
 :slug: classes/windsurfing
 :template: one_column
-:body: Something about Kona and other windsurfing at club
+:body: |-
+  Something about Kona and other windsurfing at club.
+
+
+  Include the windsurfing mailing list signup form at the bottom of the page.

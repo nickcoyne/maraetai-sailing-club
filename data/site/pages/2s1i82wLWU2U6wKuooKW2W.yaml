@@ -2,10 +2,11 @@
 :id: 2s1i82wLWU2U6wKuooKW2W
 :_meta:
   :content_type_id: page
-  :updated_at: '2018-09-23T22:36:01+00:00'
+  :updated_at: '2018-09-24T17:38:17+00:00'
   :created_at: '2018-09-23T22:36:01+00:00'
   :id: 2s1i82wLWU2U6wKuooKW2W
 :title: Results
 :slug: events/results
 :template: one_column
-:body: We can have links to results here. Ordered by date with most recent at top.
+:body: "We can have links to results here. Ordered by date with most recent at top.
+  \n\nPossibly auto-link this to events somehow."
