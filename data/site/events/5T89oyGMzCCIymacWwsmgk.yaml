@@ -2,7 +2,7 @@
 :id: 5T89oyGMzCCIymacWwsmgk
 :_meta:
   :content_type_id: event
-  :updated_at: '2018-09-23T23:00:35+00:00'
+  :updated_at: '2018-11-20T08:23:24+00:00'
   :created_at: '2018-09-23T22:57:02+00:00'
   :id: 5T89oyGMzCCIymacWwsmgk
 :title: P-Class AKL Champs
@@ -10,7 +10,7 @@
 :start_date: !ruby/object:DateTime 2018-11-17 08:00:00.000000000 Z
 :end_date: !ruby/object:DateTime 2018-11-17 17:00:00.000000000 Z
 :location: Maraetai Sailing Club
-:details: Event details here
+:details: https://www.facebook.com/events/559563834461958/
 :documents:
 - :title: AKL Champs 2018 NOR
   :description: 

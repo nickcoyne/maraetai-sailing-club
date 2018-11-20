@@ -22,12 +22,8 @@
 
     Include the windsurfing mailing list signup form at the bottom of the page.
 :parent_menu_item:
-  :id: 5wWitAkSqIIImeu4Iagc0M
-  :_meta:
-    :content_type_id: menuItem
-    :updated_at: '2018-09-23T23:32:33+00:00'
-    :created_at: '2018-09-23T23:32:33+00:00'
-    :id: 5wWitAkSqIIImeu4Iagc0M
-  :text: Sailing
-  :order: 4
+  sys:
+    type: Link
+    linkType: Entry
+    id: 5wWitAkSqIIImeu4Iagc0M
 :order: 4

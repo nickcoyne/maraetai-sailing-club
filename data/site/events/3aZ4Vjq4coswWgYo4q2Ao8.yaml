@@ -2,7 +2,7 @@
 :id: 3aZ4Vjq4coswWgYo4q2Ao8
 :_meta:
   :content_type_id: event
-  :updated_at: '2018-09-23T23:00:07+00:00'
+  :updated_at: '2018-11-20T08:03:34+00:00'
   :created_at: '2018-09-23T22:58:53+00:00'
   :id: 3aZ4Vjq4coswWgYo4q2Ao8
 :title: East AKL Opti & Starling series – MSC leg
@@ -10,4 +10,4 @@
 :start_date: !ruby/object:DateTime 2018-12-16 08:00:00.000000000 Z
 :end_date: !ruby/object:DateTime 2018-12-16 17:00:00.000000000 Z
 :location: Maraetai Sailing Club
-:details: Event details here
+:details: https://www.facebook.com/events/1878882942205336/
