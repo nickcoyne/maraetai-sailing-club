@@ -28,7 +28,7 @@ nav.navbar role="navigation" aria-label="main navigation"
               a.navbar-link = item.text
               .navbar-dropdown class="#{'navbar-dropdown--events' if item.text == 'Events'}"
                 - child_menu_items = @app.data.site.menu_items.select { |_id, i| i.parent_menu_item&.id == item&.id }
-                - child_menu_items.each do |_i, child|
+                - child_menu_items.values.sort{ |x, y| x.order.to_i <=> y.order.to_i }.each do |child|
                   = link_to child.text, "/#{child.page_link.slug}", class: 'navbar-item'
 
                 - if item.text == 'Events'
