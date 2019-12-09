@@ -1,6 +1,8 @@
 hr.is-marginless
 footer.footer
   .container
-    p
-      .is-pulled-left Copyright #{DateTime.now.year} Maraetai Sailing Club
-      = link_to 'Maraetai Boat club', 'https://www.maraetaiboatclub.org.nz', class: 'is-pulled-right', target: :_blank
+    = link_to 'https://www.barfoot.co.nz/branches/beachlands', target: :_blank, class: 'is-pulled-left' do
+      = image_tag 'bft-logo-new-sm.jpg', alt: 'Barfoot & Thompson'
+    .is-pulled-right Copyright #{DateTime.now.year} Maraetai Sailing Club
+    / = link_to 'Maraetai Boat club', 'https://www.maraetaiboatclub.org.nz', class: 'is-pulled-right', target: :_blank
+  p &nbsp;
