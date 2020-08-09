@@ -45,7 +45,7 @@ jQuery(document).ready(function ($) {
     nav:false,
     autoplay: true,
     autoplayTimeout: 3000,
-    smartSpeed: 1500,
+    smartSpeed: 2000,
     responsive:{
         0:{
           items:1
