@@ -77,3 +77,20 @@ footer a {
     z-index: 0;
   }
 }
+
+// Events page
+.sponsors {
+  height: 105px;
+  // background-color: #eee;
+  white-space: nowrap;
+  width: 100%;
+  display: table;
+}
+.sponsor-image {
+  vertical-align: middle;
+  padding: 13px;
+  display: table-cell;
+}
+.sponsor-image img {
+  max-width: 100%;
+}

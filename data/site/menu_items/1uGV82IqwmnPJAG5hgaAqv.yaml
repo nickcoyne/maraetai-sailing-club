@@ -1,0 +1,29 @@
+---
+:id: 1uGV82IqwmnPJAG5hgaAqv
+:_meta:
+  :content_type_id: menuItem
+  :updated_at: '2020-08-16T09:11:13+00:00'
+  :created_at: '2020-08-09T08:55:36+00:00'
+  :id: 1uGV82IqwmnPJAG5hgaAqv
+:text: FAQs
+:page_link:
+  :id: 2WmNOHOVsE2Tk44AlOir27
+  :_meta:
+    :content_type_id: page
+    :updated_at: '2020-08-16T09:10:50+00:00'
+    :created_at: '2020-08-16T09:10:50+00:00'
+    :id: 2WmNOHOVsE2Tk44AlOir27
+  :title: Frequently asked questions
+  :slug: about/faqs
+  :template: one_column
+  :body: Coming soon!
+:parent_menu_item:
+  :id: 7GAqNzDDHy80KYS0eeyKKI
+  :_meta:
+    :content_type_id: menuItem
+    :updated_at: '2020-08-09T09:21:59+00:00'
+    :created_at: '2018-09-23T23:37:13+00:00'
+    :id: 7GAqNzDDHy80KYS0eeyKKI
+  :text: About
+  :order: 8
+:order: 3

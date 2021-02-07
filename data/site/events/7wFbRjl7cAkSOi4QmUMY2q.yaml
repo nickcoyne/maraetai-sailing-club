@@ -2,11 +2,25 @@
 :id: 7wFbRjl7cAkSOi4QmUMY2q
 :_meta:
   :content_type_id: event
-  :updated_at: '2018-11-20T08:21:31+00:00'
+  :updated_at: '2019-02-10T18:47:40+00:00'
   :created_at: '2018-09-23T23:06:44+00:00'
   :id: 7wFbRjl7cAkSOi4QmUMY2q
-:title: The Club Captain's Picnic / Sailing Club Camp
+:title: Sailing Club Camp / Club Captain's Picnic
 :slug: 2019-club-captains-picnic-sailing-club-camp
-:start_date: !ruby/object:DateTime 2019-03-02 08:00:00.000000000 Z
-:end_date: !ruby/object:DateTime 2019-03-02 18:00:00.000000000 Z
-:details: TBA
+:start_date: !ruby/object:DateTime 2019-03-01 16:30:00.000000000 Z
+:end_date: !ruby/object:DateTime 2019-03-03 14:00:00.000000000 Z
+:details: "Following the success and feedback from recent year’s events, this season’s
+  MBBC and MSC\nclub camp is to be held at Motuihe Island from Friday 1st March to
+  Sunday 3th March 2019.\nMarch 2nd coincides with the Boating Club picnic and this
+  will also be held on Motuihe for us to join.\n\nThis event is certainly regarded
+  as a highlight for the club calendar, and we strongly\nencourage your early registration
+  to avoid disappointment! \n\nPlease see the doc to the right for full details, costs
+  and timings."
+:documents:
+- :title: 2019 Camp Details and Form
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/5I3OPc9XAeG26Ze2AqLxiy/58f8cba78d384c18d2bffe6783d9e25c/2019_MSC_Club_Camp.V1.pdf"
+  :_meta:
+    :updated_at: '2019-02-10T08:57:53+00:00'
+    :created_at: '2019-02-10T08:57:53+00:00'
+    :id: 5I3OPc9XAeG26Ze2AqLxiy

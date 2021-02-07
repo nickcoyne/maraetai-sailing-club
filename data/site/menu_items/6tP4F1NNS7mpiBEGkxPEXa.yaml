@@ -1,0 +1,29 @@
+---
+:id: 6tP4F1NNS7mpiBEGkxPEXa
+:_meta:
+  :content_type_id: menuItem
+  :updated_at: '2020-08-16T09:41:46+00:00'
+  :created_at: '2020-08-16T09:41:46+00:00'
+  :id: 6tP4F1NNS7mpiBEGkxPEXa
+:text: Weekly Sailing Schedule
+:page_link:
+  :id: 3k3Oay9ZvhlW4o0ShZlNVf
+  :_meta:
+    :content_type_id: page
+    :updated_at: '2020-08-16T09:40:25+00:00'
+    :created_at: '2020-08-16T09:40:25+00:00'
+    :id: 3k3Oay9ZvhlW4o0ShZlNVf
+  :title: Weekly Sailing Schedule
+  :slug: weekly-sailing-schedule
+  :template: weekly_schedule
+  :body: Weekly Sailing Schedule
+:parent_menu_item:
+  :id: 7AxAv0VfvGc0wa24WcQEaS
+  :_meta:
+    :content_type_id: menuItem
+    :updated_at: '2018-09-23T23:31:27+00:00'
+    :created_at: '2018-09-23T19:25:20+00:00'
+    :id: 7AxAv0VfvGc0wa24WcQEaS
+  :text: Calendar
+  :order: 3
+:order: 2

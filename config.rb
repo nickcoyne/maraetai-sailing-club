@@ -3,6 +3,7 @@
 require 'dotenv/load'
 require 'slim'
 require 'redcarpet'
+require 'lib/array'
 set :markdown_engine, :redcarpet
 set :redcarpet, autolink: true, no_intra_emphasis: true,
                 fenced_code_blocks: true, strikethrough: true
@@ -48,7 +49,12 @@ end
 if @app.data&.site&.events
   data.site.events.each do |_id, event|
     path = "events/#{event.slug}/index.html"
-    template = 'templates/page/event.html'
+    template =
+      if !event.special_event?
+        'templates/page/event.html'
+      else
+        'templates/page/event_special.html'
+      end
     proxy path, template, locals: { event: event }
   end
 end

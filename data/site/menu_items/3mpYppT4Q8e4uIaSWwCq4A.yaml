@@ -2,59 +2,51 @@
 :id: 3mpYppT4Q8e4uIaSWwCq4A
 :_meta:
   :content_type_id: menuItem
-  :updated_at: '2018-09-23T23:30:40+00:00'
+  :updated_at: '2020-09-14T04:55:55+00:00'
   :created_at: '2018-09-21T17:39:01+00:00'
   :id: 3mpYppT4Q8e4uIaSWwCq4A
-:text: Kids
+:text: Opti Learn to Sail
 :page_link:
   :id: 2BPIXVBWlmUC422K4WoAOi
   :_meta:
     :content_type_id: page
-    :updated_at: '2018-11-20T07:53:18+00:00'
+    :updated_at: '2020-10-10T08:56:40+00:00'
     :created_at: '2018-09-21T02:48:04+00:00'
     :id: 2BPIXVBWlmUC422K4WoAOi
-  :title: Junior Sailing – Learn to Sail
+  :title: Learn To Sail
   :slug: learn-to-sail/kids
   :template: two_column
-  :body: |-
-    Maraetai Sailing Club has a Junior Sailing programme over the summer months each year for children from 9 to 18 years with training by qualified Yachting NZ coaches. We teach kids in the following classes – Optis, Starlings & Jolly Boat.
-
-    REGISTRATION DAY FOR 2018/19 SEASON is Sunday 16 September 2018 2pm for all newbies here at the boat club.
-
-    For level 2 and above sailors/windsurfers who have sailed with us last year, please [download the registration form here](https://www.maraetaisailingclub.org.nz/files/msc-2018-19.pdf) and return it to the office with payment if you cannot make it on 16 September.
-
-    The Sailing Club has a number of optimist sailing dinghies for hire for first year juniors who don’t have their own boats. There are a limited number of spaces available for Junior Sailing Tuition.
-
-    The Club has a number of patrol boats which remain on the water whilst junior training is in progress. Safety is very important to both clubs, on and off the water. The Sailing Club juniors must wear an approved buoyancy aid at all times. All parents must be able to assist with duties BBQ etc.
-
-    Approval is required from the Sailing Club Committee to borrow any of the Sailing Club’s equipment.  Sailing Club Members must complete a boat handling course to be able to tow and use one of our ribs.
-
-    Junior Sailing has commenced for the season. Our learn to sail programme for ages 9 and above. Please [contact the office](https://www.maraetaisailingclub.org.nz/contact-us) for details.
-
-    Following on from last year’s junior sailing programme, we will continue along the same lines.  It has been designed by Andrew Brown of Force Racing and the MSC Team.  We have 7 volunteer parent coaches all of whom are YNZ trained and three paid coaches to help further develop the level 2 sailors and above.
-
-    The new format times are:
-
-    - Sunday sailing:  boat rigging and launching patrol boats starts at 8.30am, coaches briefing at 9am.  Afternoon racing begins at 1pm.
-    - Tuesday afternoon sailing for level 2’s and above:  boat rigging and launching patrol boats starts at 4.30pm, coaches briefing at 5pm.
-  :body2: "[//]: # (More content can go here. Perhaps pricing details, dates, etc)\n"
+  :body: "We hold a range of sailing for our juniors at Maraetai Sailing Club, ranging
+    from our Learn to Sail fleet, right through to our advanced junior sailors. Our
+    programs cater for children 9 years and older.\n\nOur Learn to Sail course uses
+    optimist dinghys which can be hired from the club. The course runs for 7 weeks
+    in which time your young sailor will be taught the basics of sailing and be ready
+    to move on to the next sailing group.\n\nFrom there, our sailors join the Learn
+    to Race group. This group is NOT just racing. It combines fun games, destination
+    sails and racing to build on the skills they learnt in the Learn to Sail program.\n\nThe
+    sailors then move in to our intermediate and advanced groups where the coaches
+    continue to build on their skills to create exceptionally talented young sailors.\n\nOur
+    more experienced sailors are coached at MSC in a range of sailing dinghys, including
+    Optimists, P Class, Starling, Laser & RS Feva. \n\nContact us at [juniorsailing@maraetaisailingclub.org.nz](mailto:juniorsailing@maraetaisailingclub.org.nz)
+    for further information.\n\n![msc-sailing-programme](//images.ctfassets.net/4xilioo7w5uj/zOfHfW4K4FyL75BsmerS1/632e0a1b6c98336a5ca5c25f641fea2c/msc-sailing-programme.png)"
+  :body2: "[2020 Learn to Sail Information Sheet](//assets.ctfassets.net/4xilioo7w5uj/6l6FNjUY7JEv6ZLWfwZgs5/6e5722a4fadd60f04e3b150db1821d7e/Junior_Learn_to_Sail_Information_Sheet.pdf)"
   :hero_images:
   - :title: kids
-    :description: 
+    :description:
     :url: "//images.ctfassets.net/4xilioo7w5uj/1AbXE5rMGUQMUg8YussGm8/ecf9795c0a913ab849ff483bf839085b/kids.jpg"
     :_meta:
       :updated_at: '2018-09-21T17:25:05+00:00'
       :created_at: '2018-09-21T17:25:05+00:00'
       :id: 1AbXE5rMGUQMUg8YussGm8
   - :title: kids-2
-    :description: 
+    :description:
     :url: "//images.ctfassets.net/4xilioo7w5uj/3ixzEBVtRK4AA2U2iaCeQQ/3fa5ae54dd2a987f6a17ec8514d1a2d5/kids-2.jpg"
     :_meta:
       :updated_at: '2018-09-21T17:25:05+00:00'
       :created_at: '2018-09-21T17:25:05+00:00'
       :id: 3ixzEBVtRK4AA2U2iaCeQQ
   - :title: kids-3
-    :description: 
+    :description:
     :url: "//images.ctfassets.net/4xilioo7w5uj/18SM4HBA9Gu04u2w4WIMs8/1638ebceb22aff299f9579ff491df4da/kids-3.jpg"
     :_meta:
       :updated_at: '2018-09-21T17:25:05+00:00'
@@ -64,9 +56,9 @@
   :id: 4CvgVYYobKSuaAGik0uEWI
   :_meta:
     :content_type_id: menuItem
-    :updated_at: '2018-09-23T23:30:11+00:00'
+    :updated_at: '2020-08-09T08:48:30+00:00'
     :created_at: '2018-09-21T17:37:55+00:00'
     :id: 4CvgVYYobKSuaAGik0uEWI
-  :text: Learn To Sail
+  :text: Sailing
   :order: 2
 :order: 1

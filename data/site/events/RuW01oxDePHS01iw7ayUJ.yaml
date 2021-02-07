@@ -1,0 +1,44 @@
+---
+:id: RuW01oxDePHS01iw7ayUJ
+:_meta:
+  :content_type_id: event
+  :updated_at: '2019-09-02T04:29:12+00:00'
+  :created_at: '2019-09-02T04:25:51+00:00'
+  :id: RuW01oxDePHS01iw7ayUJ
+:title: 2019/20 Junior East Auckland Series - Maraetai Leg
+:slug: 201920-east-auckland-series-maraetai
+:start_date: !ruby/object:DateTime 2019-12-15 13:00:00.000000000 Z
+:end_date: !ruby/object:DateTime 2019-12-15 17:00:00.000000000 Z
+:location: Maraetai Sailing Club
+:details: Details to follow.
+:documents:
+- :title: Centreboard Clubs Standard Sailing Instructions 2018 v12
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/3p0vpKe3ijaqtcSEjl3T4n/a1a34b0393642a33f523bbb064508c30/Centreboard_Clubs_Standard_Sailing_Instructions_2018_v12.pdf"
+  :_meta:
+    :updated_at: '2019-09-02T04:23:58+00:00'
+    :created_at: '2019-09-02T04:23:58+00:00'
+    :id: 3p0vpKe3ijaqtcSEjl3T4n
+- :title: Jnr East AKL Series Course Template 2019-20 - Trapezoid with beat to finish
+    - separate signal boats for start and finish (I, O)
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/2hnQwLv8I9OzGDgBJ2NsoW/cc51faf55e4af14c7b957bedcbf773d2/Jnr_East_AKL_Series_Course_Template_2019-20_-_Trapezoid_with_beat_to_finish_-_separate_signal_boats_for_start_and_finish__I_.pdf"
+  :_meta:
+    :updated_at: '2019-09-02T04:27:37+00:00'
+    :created_at: '2019-09-02T04:27:37+00:00'
+    :id: 2hnQwLv8I9OzGDgBJ2NsoW
+- :title: SI Regatta Specific Schedule - 2019-20 Jnr East Auckland Opti-Starling Series
+    template for Host Clubs
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/5CIHRGOuXthtSwQ8fVKn2f/76f3a118c32518ed0264345b194bc088/SI_Regatta_Specific_Schedule_-_2019-20_Jnr_East_Auckland_Opti-Starling_Series_template_for_Host_Clubs.pdf"
+  :_meta:
+    :updated_at: '2019-09-02T04:27:59+00:00'
+    :created_at: '2019-09-02T04:27:59+00:00'
+    :id: 5CIHRGOuXthtSwQ8fVKn2f
+- :title: NOR Junior East Auckland Series 2019-20 v1.00
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/5g6byOp48btNMdPEVSi5N/a9c63f03e00c7967e8d287954fb5e6a5/NOR_Junior_East_Auckland_Series_2019-20_v1.00.pdf"
+  :_meta:
+    :updated_at: '2019-09-02T04:29:03+00:00'
+    :created_at: '2019-09-02T04:29:03+00:00'
+    :id: 5g6byOp48btNMdPEVSi5N

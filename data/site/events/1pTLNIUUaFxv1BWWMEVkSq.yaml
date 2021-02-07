@@ -1,0 +1,45 @@
+---
+:id: 1pTLNIUUaFxv1BWWMEVkSq
+:_meta:
+  :content_type_id: event
+  :updated_at: '2020-11-14T23:56:25+00:00'
+  :created_at: '2020-08-16T10:00:25+00:00'
+  :id: 1pTLNIUUaFxv1BWWMEVkSq
+:title: Junior East Auckland Series 2020 - Maraetai Leg
+:slug: junior-east-auckland-series-maraetai-leg-2020
+:start_date: !ruby/object:DateTime 2020-11-22 12:15:00.000000000 Z
+:end_date: !ruby/object:DateTime 2020-11-22 16:00:00.000000000 Z
+:location: Maraetai Sailing Club
+:details: |-
+  Opti, Starling and Feva.
+
+  https://www.facebook.com/events/276162153800239/
+:documents:
+- :title: Notice of Race
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/48eczDxayYsUzVh5s8hSs3/4622ba28f03cc870c2807adda1212502/2020-21-junior-east-akl-series-nor-v2.pdf"
+  :_meta:
+    :updated_at: '2020-11-09T00:00:05+00:00'
+    :created_at: '2020-11-09T00:00:05+00:00'
+    :id: 48eczDxayYsUzVh5s8hSs3
+- :title: Sailing Instructions
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/6wWKjKEbfh8RywC9ilOkax/a3ac719fe2300613102ac4cd89d91136/SI_East_Akl_2020-21.pdf"
+  :_meta:
+    :updated_at: '2020-11-14T23:52:29+00:00'
+    :created_at: '2020-11-14T23:52:29+00:00'
+    :id: 6wWKjKEbfh8RywC9ilOkax
+- :title: Courses
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/2AAiPFm6xl2ytB3oakXf3m/1f4f35ef724e907554b5d8ba4ab7680c/East_AKL_Course_2020.pdf"
+  :_meta:
+    :updated_at: '2020-11-14T23:53:17+00:00'
+    :created_at: '2020-11-14T23:53:17+00:00'
+    :id: 2AAiPFm6xl2ytB3oakXf3m
+- :title: Fleets
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/4aKtE6J3ODlZfxQ5Cb3cQY/70de85ec6e939a827f373aec710a11d8/Fleet.pdf"
+  :_meta:
+    :updated_at: '2020-11-14T23:53:47+00:00'
+    :created_at: '2020-11-14T23:53:47+00:00'
+    :id: 4aKtE6J3ODlZfxQ5Cb3cQY

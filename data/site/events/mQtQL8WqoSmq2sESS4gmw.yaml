@@ -2,7 +2,7 @@
 :id: mQtQL8WqoSmq2sESS4gmw
 :_meta:
   :content_type_id: event
-  :updated_at: '2018-11-20T08:22:41+00:00'
+  :updated_at: '2019-04-06T08:31:36+00:00'
   :created_at: '2018-09-23T23:09:01+00:00'
   :id: mQtQL8WqoSmq2sESS4gmw
 :title: MSC Annual Centreboard Regatta
@@ -10,4 +10,47 @@
 :start_date: !ruby/object:DateTime 2019-04-06 08:00:00.000000000 Z
 :end_date: !ruby/object:DateTime 2019-04-06 17:00:00.000000000 Z
 :location: Maraetai Sailing Club
-:details: TBA
+:details: "[View results](https://www.maraetaisailingclub.org.nz/events/results/)\n"
+:documents:
+- :title: MSC Entry Form 2019
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/2bDjB1JrotezYqkVLuAb9W/54cbbcd2fa49bc5696e7c89a7df05020/MSC_Entry_Form_2019.pdf"
+  :_meta:
+    :updated_at: '2019-03-15T07:27:29+00:00'
+    :created_at: '2019-03-15T07:27:29+00:00'
+    :id: 2bDjB1JrotezYqkVLuAb9W
+- :title: MSC NOR 2019
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/5CmhbgEnfVcEoqwY1CuQrH/11c14aad3ef367e174670c6696289866/MSC_NOR_2019.pdf"
+  :_meta:
+    :updated_at: '2019-03-15T07:27:52+00:00'
+    :created_at: '2019-03-15T07:27:52+00:00'
+    :id: 5CmhbgEnfVcEoqwY1CuQrH
+- :title: MSC Regatta 2019 - SI
+  :description: Sailing Instructions
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/6Rl52299FMOVJXlM55vG9x/9dd9b46a87dfcd307408187aad8a2b9c/MSC_Regatta_2019_-_SI.pdf"
+  :_meta:
+    :updated_at: '2019-04-01T21:17:55+00:00'
+    :created_at: '2019-04-01T00:38:57+00:00'
+    :id: 6Rl52299FMOVJXlM55vG9x
+- :title: MSC Regatta 2019 - A - Course Diagram
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/DqWXfD0O0GsqcxwEKU1iH/f57b828dce5217c6a673303090f45c19/MSC_Regatta_2019_-_A_-_Course_Diagram.pdf"
+  :_meta:
+    :updated_at: '2019-04-01T00:43:33+00:00'
+    :created_at: '2019-04-01T00:43:33+00:00'
+    :id: DqWXfD0O0GsqcxwEKU1iH
+- :title: MSC Regatta 2019 - B - Course Diagram
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/29eR6317zMMfBZAu1ezWkM/6c0cfd1304418ecc8c0a1381fe6f8cfc/MSC_Regatta_2019_-_B_-_Course_Diagram.pdf"
+  :_meta:
+    :updated_at: '2019-04-01T00:44:07+00:00'
+    :created_at: '2019-04-01T00:44:07+00:00'
+    :id: 29eR6317zMMfBZAu1ezWkM
+- :title: MSC Regatta 2019 - B - Course Diagram Pg2
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/3NJHOQa3GgnwweeYZYOv7Y/2c95a3633845c25b36339d74a0b4c197/MSC_Regatta_2019_-_B_-_Course_Diagram_Pg2.pdf"
+  :_meta:
+    :updated_at: '2019-04-01T00:44:35+00:00'
+    :created_at: '2019-04-01T00:44:35+00:00'
+    :id: 3NJHOQa3GgnwweeYZYOv7Y

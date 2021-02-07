@@ -1,0 +1,56 @@
+.section
+  .container
+    .columns
+      .column.is-full
+        h1.title
+          = event.title
+    .columns
+      .column.is-one-quarter
+        .content
+          = markdown do
+            = event.header_logo
+
+      .column.is-half
+        .content
+          = markdown do
+            = event.details
+
+      .column
+        .content.is-one-quarter
+          = markdown do
+            = event.head_right
+          - if event.documents.present?
+            h3 Documents
+            ul
+              - event.documents.each do |document|
+                li = link_to document.title, document.url
+            br
+
+.section
+  .container
+    .columns
+      .column.is-one-third
+        .content
+          = markdown do
+            = event.column1
+
+      .column.is-one-third
+        .content
+          = markdown do
+            = event.column2
+
+      .column.is-one-third
+        .content
+          = markdown do
+            = event.column3
+
+.section
+  .container
+    .columns
+      .column
+        - event.sponsors.split(' ').in_groups(2).each do |group|
+          .content.is-full.sponsors
+            - group.each do |s|
+              .sponsor-image
+                = markdown do
+                  = s

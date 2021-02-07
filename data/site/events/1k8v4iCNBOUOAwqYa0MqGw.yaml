@@ -2,12 +2,62 @@
 :id: 1k8v4iCNBOUOAwqYa0MqGw
 :_meta:
   :content_type_id: event
-  :updated_at: '2018-11-20T08:22:02+00:00'
+  :updated_at: '2019-03-09T17:48:41+00:00'
   :created_at: '2018-09-23T23:07:57+00:00'
   :id: 1k8v4iCNBOUOAwqYa0MqGw
-:title: J-14, 3.7’s & Finn classes
+:title: J-14, 3.7’s & Finn Class Nationals
 :slug: 2019-j-14-3-7s-and-finn
 :start_date: !ruby/object:DateTime 2019-03-08 08:00:00.000000000 Z
 :end_date: !ruby/object:DateTime 2019-03-10 17:00:00.000000000 Z
 :location: Maraetai Sailing Club
-:details: TBA
+:details: |+
+  __Results (opens on sailwave.com):__
+
+  * [J-14](https://www.sailwave.com/results/2019%20J-14%20Nationals%202019.htm)
+  * [Finn](https://www.sailwave.com/results/2019%20Finn%20Nationals%20MSC.htm)
+  * [3.7](https://www.sailwave.com/results/2019%203..7%20Nationals%20MSC.htm)
+
+:documents:
+- :title: Entry Form
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/4w4oNlyXftHFACVOZBeFMR/2f1fff0c41eaa40e59c274518d5b8371/Entry_Form_2019.pdf"
+  :_meta:
+    :updated_at: '2019-02-27T16:16:09+00:00'
+    :created_at: '2019-02-23T19:08:43+00:00'
+    :id: 4w4oNlyXftHFACVOZBeFMR
+- :title: 2019-New-Zealand-Finn-Nationals-SI-(RH)
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/10l5FaWA4czixL4uhNzYJt/85aaa1dd962429638559f5299dd1bfe1/2019-New-Zealand-Finn-Nationals-SI-_RH_.pdf"
+  :_meta:
+    :updated_at: '2019-03-06T07:15:11+00:00'
+    :created_at: '2019-03-06T07:15:11+00:00'
+    :id: 10l5FaWA4czixL4uhNzYJt
+- :title: NOR-2019-New-Zealand-Finn-Class-Championships(RH)
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/6IVetsEt0YG5awLptYyBzH/111ba933a1509ccfa358102fa596c4ed/NOR-2019-New-Zealand-Finn-Class-Championships_RH_.pdf"
+  :_meta:
+    :updated_at: '2019-03-06T07:15:36+00:00'
+    :created_at: '2019-03-06T07:15:36+00:00'
+    :id: 6IVetsEt0YG5awLptYyBzH
+- :title: 3.7 J-14 Class Nats 2019 NOR V3
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/21IRMu8PfBtZSgk4wPTXgW/0ab1805bed4c6e33a887bd1d2baa27fd/3.7_J-14_Class_Nats_2019_NOR_V3.pdf"
+  :_meta:
+    :updated_at: '2019-03-07T07:23:29+00:00'
+    :created_at: '2019-03-07T07:23:29+00:00'
+    :id: 21IRMu8PfBtZSgk4wPTXgW
+- :title: 3.7 J-14 Class Nats 2019 Supplementry SI V3
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/1AyHtgaMtI0eP5gzvJtF3Z/c832f807e39fa930b1b6766e2d80c6b4/3.7_J-14_Class_Nats_2019_Supplementry_SI_V3.pdf"
+  :_meta:
+    :updated_at: '2019-03-07T07:23:50+00:00'
+    :created_at: '2019-03-07T07:23:50+00:00'
+    :id: 1AyHtgaMtI0eP5gzvJtF3Z
+- :title: Attachment A
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/4Icfx837oQMYja1dOp7Hx1/3837a5682e49e6307a3882632baf8ba4/Attachment_A.pdf"
+  :_meta:
+    :updated_at: '2019-03-07T07:24:09+00:00'
+    :created_at: '2019-03-07T07:24:09+00:00'
+    :id: 4Icfx837oQMYja1dOp7Hx1
+...

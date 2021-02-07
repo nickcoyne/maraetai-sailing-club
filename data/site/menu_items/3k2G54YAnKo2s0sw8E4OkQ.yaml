@@ -2,34 +2,43 @@
 :id: 3k2G54YAnKo2s0sw8E4OkQ
 :_meta:
   :content_type_id: menuItem
-  :updated_at: '2018-09-23T23:30:57+00:00'
+  :updated_at: '2020-08-09T08:52:23+00:00'
   :created_at: '2018-09-21T17:40:05+00:00'
   :id: 3k2G54YAnKo2s0sw8E4OkQ
-:text: Windsurfing
+:text: Windsurfing & Windfoiling
 :page_link:
   :id: 3dQ7KMFg0802GOIo6a4O4U
   :_meta:
     :content_type_id: page
-    :updated_at: '2018-11-20T04:27:17+00:00'
+    :updated_at: '2020-09-30T04:13:13+00:00'
     :created_at: '2018-09-21T02:51:18+00:00'
     :id: 3dQ7KMFg0802GOIo6a4O4U
   :title: Learn To Windsurf
   :slug: learn-to-sail/windsurfing
   :template: two_column
-  :body: |-
-    Windsurfing tuition runs alongside Junior Sailing on Sundays and Tuesdays during the summer months. For ages 11 and above (including adults). From beginner (learn to sail) through to intermediate.
-
-    Coaching times are 9am – 12pm on Sundays and 5-7:30pm on Tuesdays. Meeting at the Sailing Club.
-
-    If you're not sure you're going to be keen, join us for a free "have-a-go" trail on Sundays - just let us know in advance to book a place.
-
-    Bring your own wetsuit and buoyancy vest. We have boards and all the other gear available to rent, or bring your own. We also offer storage if you have your own gear.
-
-    Contact Nick Coyne if you are interested in learning how to windsurf. Email [windsurfing@maraetaisailingclub.org.nz](mailto:windsurfing@maraetaisailingclub.org.nz) or phone 021 266 3798. For updates check out our [Facebook page](https://www.facebook.com/groups/maraetaiwindsurfing).
-  :body2: "[//]: # (More content can go here. Perhaps pricing details, dates, etc)\n"
+  :body: "We teach windsurfing for kids age 11 and up, and for adults, starting with
+    our beginner and intermediate Learn to Windsurf courses. We also offer more advanced
+    skills clinics and an introduction to windfoiling.\n\nOur Beginner Learn to Windsurf
+    course uses Kona windsurfers which can be hired from the club. The course runs
+    for 7 weeks in which time you will be taught the basics of windsurfing and be
+    ready to move on to the next windsurfing group.\n\nFrom there, our windsurfers
+    join the intermediate group where more advanced skills are learned. The fun really
+    begins here, as you'll start sailing at higher speeds whilst in your footstraps.
+    \n\nWe use Kona boards for our beginner and intermediate groups, and as you progress
+    further you'll want to buy your own gear. We can offer advice on used gear, and
+    the best places to buy new gear, from shops that give good deals to club members.\n\nIn
+    addition to our Beginner and Intermediate Learn to Windsurf programmes, we also
+    offer school holiday programmes, one-off \"have-a-go\" days, and possibly some
+    full weekend intensive coaching if we have the numbers.\n\nFor more details on
+    the windsurfing programme, please download the information sheet on the right.
+    Then signup for our programmes [here](https://www.maraetaisailingclub.org.nz/membership/).\n\nIf
+    you have any questions contact Nick Coyne at [windsurfing@maraetaisailingclub.org.nz](mailto:windsurfing@maraetaisailingclub.org.nz)
+    or phone 021 266 3798. For updates check out our [Facebook page](https://www.facebook.com/groups/maraetaiwindsurfing)
+    and [sign up for our newsletter](http://eepurl.com/dHl4Z9).\n\n"
+  :body2: "- [2020/21 Windsurfing/Windfoiling Information Sheet](//assets.ctfassets.net/4xilioo7w5uj/SytpMri3HqoFaI6kfT6RN/e6105539f7003f04bab239100af969ef/Windsurfing-Information-Sheet-2021.pdf)\n"
   :hero_images:
   - :title: lts/windsurfing
-    :description: 
+    :description:
     :url: "//images.ctfassets.net/4xilioo7w5uj/51aXh3dy1aOmQ8ekyy00yS/f69c43ee99092618854cd1fdf38b52bc/slide-3.jpg"
     :_meta:
       :updated_at: '2018-09-21T17:17:50+00:00'
@@ -39,9 +48,9 @@
   :id: 4CvgVYYobKSuaAGik0uEWI
   :_meta:
     :content_type_id: menuItem
-    :updated_at: '2018-09-23T23:30:11+00:00'
+    :updated_at: '2020-08-09T08:48:30+00:00'
     :created_at: '2018-09-21T17:37:55+00:00'
     :id: 4CvgVYYobKSuaAGik0uEWI
-  :text: Learn To Sail
+  :text: Sailing
   :order: 2
 :order: 3

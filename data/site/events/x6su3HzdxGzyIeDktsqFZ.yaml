@@ -1,0 +1,33 @@
+---
+:id: x6su3HzdxGzyIeDktsqFZ
+:_meta:
+  :content_type_id: event
+  :updated_at: '2020-10-17T04:44:39+00:00'
+  :created_at: '2020-08-21T23:22:13+00:00'
+  :id: x6su3HzdxGzyIeDktsqFZ
+:title: RS Feva Traveller Series 2020 - Maraetai Leg
+:slug: rs-feva-traveller-series
+:start_date: !ruby/object:DateTime 2020-10-17 09:00:00.000000000 Z
+:end_date: !ruby/object:DateTime 2020-10-18 15:00:00.000000000 Z
+:location: Maraetai Sailing Club
+:details: |
+  [Results](https://www.sailwave.com/results/MSC%20RS%20Feva%20Travellers%202020.htm)
+
+  [Enter here](https://msc.webentry.co.nz/regatta.php?regattaid=7)
+
+  More series details on the [NZ RS Feva Association Facebook page](https://www.facebook.com/nzrsfeva/)
+:documents:
+- :title: 2020 FEVA Traveller series MSC NOR
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/2bzSUq3M2Xvf9S7l3SaKow/56eb33e1220595275eb351666b8b00ae/2020_FEVA_Traveller_series_MSC_NOR.pdf"
+  :_meta:
+    :updated_at: '2020-10-05T18:13:22+00:00'
+    :created_at: '2020-10-05T18:13:22+00:00'
+    :id: 2bzSUq3M2Xvf9S7l3SaKow
+- :title: 2020 FEVA Traveller Sailing Instructions
+  :description:
+  :url: "//assets.ctfassets.net/4xilioo7w5uj/1adjc7k4yLay3eKobDWaj0/889cb6a81327f4d70ad6ee891e80425c/2020_FEVA_Traveller_Sailing_Instructions.pdf"
+  :_meta:
+    :updated_at: '2020-10-14T06:09:29+00:00'
+    :created_at: '2020-10-14T06:09:29+00:00'
+    :id: 1adjc7k4yLay3eKobDWaj0
