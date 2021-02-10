@@ -48,7 +48,7 @@
   .container
     .columns
       .column
-        - event.sponsors.split(' ').in_groups(2).each do |group|
+        - event.sponsors.split(' ').in_groups(3).each do |group|
           .content.is-full.sponsors
             - group.each do |s|
               .sponsor-image
