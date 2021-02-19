@@ -1,3 +1,6 @@
+ruby:
+  sponsors = event.sponsors.split(' ')
+  title_sponsor = sponsors.delete_at(0)
 .section
   .container
     .columns
@@ -17,6 +20,8 @@
 
       .column
         .content.is-one-quarter
+          = markdown do
+            = title_sponsor
           = markdown do
             = event.head_right
           - if event.documents.present?
@@ -48,7 +53,11 @@
   .container
     .columns
       .column
-        - event.sponsors.split(' ').in_groups(3).each do |group|
+        .content.is-full.has-text-centered.sponsors
+          .sponsor-image
+            = markdown do
+              = title_sponsor
+        - sponsors.in_groups(3).each do |group|
           .content.is-full.sponsors
             - group.each do |s|
               .sponsor-image
